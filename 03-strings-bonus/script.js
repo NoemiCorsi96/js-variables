@@ -10,11 +10,17 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 const carattere = 'y';
 let indice = cityName.indexOf(carattere);
 console.log(indice + 1); // Output: 4
+// NON SO BENE COME UTILIZZARE LA PRIMA VARIABILE, INOLTRE IL RISULTATO SAREBBE 3 PERCHè CREDO CHE IL CONTEGGIO PARTA DA 0
+
+
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
+const citySubstring = 'York';
 console.log(citySubstring); // Output: "York"
+
+const city_substring = city.substring(4,8); //il primo numero è incluso (si parte da 0) il secondo è escluso
+console.log(city_substring);
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
