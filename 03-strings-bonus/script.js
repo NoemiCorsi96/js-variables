@@ -9,8 +9,8 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 //const cityIndex = 0;
 const carattere = 'y';
 let indice = cityName.indexOf(carattere);
-console.log(indice + 1); // Output: 4
-// NON SO BENE COME UTILIZZARE LA PRIMA VARIABILE, INOLTRE IL RISULTATO SAREBBE 3 PERCHè CREDO CHE IL CONTEGGIO PARTA DA 0
+console.log(indice); // Output: 4
+
 
 
 
